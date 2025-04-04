@@ -1,10 +1,5 @@
 package character
 
-import (
-	"fmt"
-	"gameongo/logic"
-)
-
 type Character struct {
 	hp      float32
 	attack  float32
@@ -24,5 +19,5 @@ func CreateCharacter(hp float32, attack float32, defense float32, speed float32,
 	return character
 }
 func main() {
-	fmt.Println(logic.E.Name)
+
 }
